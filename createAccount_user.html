@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body{
+            background-color: rgb(229, 229, 229);
+            padding-bottom:400px ;
+            padding-top:200px ;
+            padding-right:400px ;
+            padding-left:400px ;
+
+        }
+        .container{
+            border: 2px solid rgb(110, 59, 136);
+            text-align: center;
+            background-color: white;
+            align-content: center;
+        }
+        .sign{
+            text-align: left;
+            padding: 100px;
+            padding: 70px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="password"]
+        {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        a{
+            width: 30%;
+            background-color:rgb(110, 59, 136) ;
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+
+        }
+        p{
+            font-weight: bold;
+        }
+        a:hover{
+            color: rgb(110, 59, 136);
+            background-color: rgb(229, 229, 229);
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Sign Up</h2>
+        <form>
+            <div class="sign">
+                <p>Name: </p><input type="text" placeholder="Enter Name" required>
+                <p>Mobile No.: <br><br><input type="number" placeholder="Enter Mobile Number" required></p>
+                <p>Email : <br> <br><input type="email" placeholder="Enter email" required></p>
+                <p>Username : <br> <br><input type="text" placeholder="Enter Username" required></p>
+                <p>Password : <br> <br><input type="password" placeholder="Enter password" required></p><br>
+                <a href="login_user.html">Sign Up</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

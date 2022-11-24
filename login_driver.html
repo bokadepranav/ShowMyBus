@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: rgb(229, 229, 229);
+            padding-bottom:400px ;
+            padding-top:100px ;
+            padding-right:400px ;
+            padding-left:400px ;
+
+        }
+        .container{
+            border: 2px solid rgb(110, 59, 136);
+            text-align: center;
+            background-color: white;
+            align-content: center;
+        }
+        p{
+            padding: 0%;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"]{
+            padding : 7px;
+        }
+        .signin{
+            background-color:rgb(110, 59, 136) ;
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+        }
+        .signin:hover{
+            color: rgb(110, 59, 136);
+            background-color: rgb(229, 229, 229);
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .account{
+            font-weight: 900;
+            color: rgb(4, 163, 249);
+        }
+        .account:hover{
+            color: #00bc;
+        }
+        .check{
+            align-content: center;
+            text-align: center;
+        }
+        #lastText{
+            color:rgb(110, 59, 136) ;
+        }
+        .drivers{
+            padding: 5px;
+            font-weight: bold;
+            color:rgb(110, 59, 136) ;
+            text-decoration: none;
+            font-size: larger;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Login</h2>
+        <form action="login_driver.php">
+            <p>Username : 
+            <input class="username" type="text" placeholder="username" name="un">
+            </p>
+            <p>Password : 
+                <input class="username" type="password" placeholder="password" name="pw">
+            </p>
+            <br>
+           <a href="createAccount_driver.html"><input class="signin" type="submit" value="Log In"></a>
+           <br>
+           <br>
+           <a href="createAccount_driver.html" class="account">Create new account?</a>
+           <h5>(Create new account or Edit existing account)</h5>
+           <br>
+        </form>
+    </div><br><br><br><br>
+    <div class="check">
+        <p><h3 id="lastText">Enter Username and check your details</h3></p>
+        <form action="display_driver.php">
+            Username : <input class="username" type="text" name="user" placeholder="username">
+            <br><br>
+            <input type="submit" value="submit" class="drivers">
+        </form> 
+
+    </div>
+    
+</body>
+</html>

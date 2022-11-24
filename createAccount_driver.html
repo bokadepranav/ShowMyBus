@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body{
+            background-color: rgb(229, 229, 229);
+            padding-bottom:400px ;
+            padding-top:80px ;
+            padding-right:400px ;
+            padding-left:400px ;
+
+        }
+        .container{
+            border: 2px solid rgb(110, 59, 136);
+            text-align: center;
+            background-color: white;
+            align-content: center;
+        }
+        .sign{
+            text-align: left;
+            padding: 100px;
+            padding: 70px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="password"]
+        {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .signup{
+            width: 15%;
+            background-color:rgb(110, 59, 136) ;
+            padding: 10px;
+            margin-right: 10px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+
+        }
+        p{
+            font-weight: bold;
+        }
+        .signup:hover{
+            color: rgb(110, 59, 136);
+            background-color: rgb(229, 229, 229);
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .Update{
+            padding: 5px;
+            font-weight: bold;
+            color:rgb(110, 59, 136) ;
+            width: 30%;
+            background-color:rgb(229, 229, 229);
+            padding: 10px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .Update:hover{
+            color: rgb(229, 229, 229);
+            background-color:rgb(110, 59, 136) ;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Sign Up</h2>
+        <form action="createAccount_driverphp.php">
+            <div class="sign">
+                <p>Name: </p><input type="text" placeholder="Enter Name" required name="nm">
+                <p>Gender:</p>
+                <p><input type="text" name="gnd" placeholder="Enter Gender"></p>
+                <p>Age: <br><br><input type="number" name="age" placeholder="Enter Age" required></p>
+                <p>Mobile No.: <br><br><input type="number" name="mno" placeholder="Enter Mobile Number" required></p>
+                <p>Email : <br> <br><input type="email" name="em" placeholder="Enter email" required></p>
+                <p>City : <br> <br><input type="text" placeholder="Enter city" name="ct" required></p>
+                <p>Username : <br> <br><input type="text" placeholder="Enter Username" name="unm" required></p>
+                <p>Password : <br> <br><input type="password" placeholder="Enter password" required name="pwd"></p><br>
+                <input type="submit" name="btn1" value="Signup" class="signup">
+                <a href="login_driver.html" class="Update">Update</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
