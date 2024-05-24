@@ -38,7 +38,7 @@ Welcome to **Show My Bus**! This platform provides real-time bus tracking to hel
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/Soham0902/Show_My_Bus.git
+    https://github.com/bokadepranav/ShowMyBus.git
     ```
 2. **Set Up the Database**
     - Import the provided SQL file into your MySQL database.
