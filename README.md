@@ -66,7 +66,7 @@ Contributions are welcome! Here's how you can contribute:
 
 ## 📞 Contact
 
-Project Link: [Show_My_Bus](https://github.com/Soham0902/Show_My_Bus)
+Project Link: [Show_My_Bus](https://github.com/bokadepranav/ShowMyBus)
 
 ---
 
