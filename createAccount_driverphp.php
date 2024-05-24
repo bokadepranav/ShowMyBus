@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-	$con=mysqli_connect("localhost","root","","showmybus");
+	$con=mysqli_connect("localhost","root","7709200288","showmybus");
 	if(!$con)
 	{
 		print("not connected");
